@@ -6,7 +6,9 @@ btnup.addEventListener("click", valueU);
 function valueD() {
   const span = document.getElementById("count");
   let n = parseInt(span.textContent);
+  if (span.textContent >=1 ) {
   span.textContent = n - 1;
+  }
 }
 function valueU() {
   const span = document.getElementById("count");
@@ -41,7 +43,10 @@ const btn2 = document.querySelector('#btndown');
 let timer2;
 
 function continuosdecerment() {
+
+  if (count.innerHTML >= 1) {
   count.innerHTML = --value;
+  }
   
   timer2 = setTimeout(continuosdecerment, 200);
 }
