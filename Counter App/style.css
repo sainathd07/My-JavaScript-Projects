@@ -5,11 +5,11 @@
   flex-direction: row;
 }
 
-.btn-up {
+.btnup {
   padding: 0 20px;
   margin-right: 20px;
 }
-.btn-down {
+.btndown {
   padding: 0 20px;
   margin-left: 20px;
 }
