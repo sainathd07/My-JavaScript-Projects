@@ -1,0 +1,19 @@
+.container {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.btn-up {
+  padding: 0 20px;
+  margin-right: 20px;
+}
+.btn-down {
+  padding: 0 20px;
+  margin-left: 20px;
+}
+
+#count {
+  color: blue;
+}
