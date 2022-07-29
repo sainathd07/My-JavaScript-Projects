@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  height: 0;
+  background-color: black;
+}
+.container {
+  width: 100%;
+  height: 100%;
+}
+.container1 {
+  width: 100%;
+  height: 20vh;
+}
+.container2 {
+  width: 100%;
+  height: 60vh;
+}
+.container3 {
+  width: 100%;
+  height: 20vh;
+}
+
+table {
+  width: 70%;
+  height: 90%;
+  margin: 0 auto;
+}
+table, td {
+  padding: 4px;
+  border-radius: 10%;
+  border-collapse: collapse;
+  margin-top: 8px;
+}
+
+#answer {
+  width: 68%;
+  height: 10%;
+  margin: 0 auto;
+  display: block;
+  background-color: white;
+  border-radius: 10%;
+}
+
+button {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  border: none;
+  border-radius: 10%;
+}
