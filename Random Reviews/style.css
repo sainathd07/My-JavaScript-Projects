@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: aliceblue;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+.card {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  width: 40vw;
+  height: auto;
+  margin: auto;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5%;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card > .role {
+  color: blue;
+  font-size: 0.8rem;
+}
+
+.card > .prev-next > a{
+  text-decoration: none;
+  padding: 0 10px;
+  font-size: 1.5rem;
+}
+
+.card > img {
+  border-radius: 50%;
+}
