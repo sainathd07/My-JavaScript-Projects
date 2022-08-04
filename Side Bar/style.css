@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  position: relative;
+  background-color: beige;
+}
+
+img {
+  width: 30px;
+  margin: 10px;
+}
+
+.card {
+  position: absolute;
+  background-color: white;
+  width: 20vw;
+  height: 94vh;
+  left: 0;
+  top: 0;
+  padding: 20px;
+}
+
+.card > .header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.cross-icon {
+  width: 20px;
+  margin: 0;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+}
+
+.links > a {
+  margin: 15px 0;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: large;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+}
+
+.main > .left-facing-arrow {
+  margin: 0;
+  padding: 0;
+}
+
+.main > h2 {
+  margin: 0;
+  padding: 0;
+}
